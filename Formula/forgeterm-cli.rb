@@ -1,9 +1,9 @@
 class ForgetermCli < Formula
   desc "CLI tool for ForgeTerm - open projects, send notifications, list recent projects"
   homepage "https://github.com/codama-dev/forgeterm"
-  url "https://github.com/codama-dev/forgeterm/releases/download/v0.9.0/forgeterm-cli.sh"
-  sha256 "1f943a47c0afb2e846cd8ab63aaa45db568bf555364716a6238b1ce5ce33ef5c"
-  version "0.9.0"
+  url "https://github.com/codama-dev/forgeterm/releases/download/v0.10.0/forgeterm-cli.sh"
+  sha256 "a484d4439c330b59457047898f8aac7b3833697e83fd4524a757f35ddf8c66c4"
+  version "0.10.0"
   license "MIT"
 
   def install
