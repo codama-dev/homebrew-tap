@@ -1,6 +1,6 @@
 cask "forgeterm" do
-  version "0.12.0"
-  sha256 "b2d8f38985bd339c83148ea83d8cb6d48a992ed7e0c5558ac7a6d766bb21c2ac"
+  version "0.13.0"
+  sha256 "bd45e2788fd3ff943da5ec91f6b645cfe05319d75a3b9712becf75621f7875e7"
 
   url "https://github.com/codama-dev/forgeterm/releases/download/v#{version}/ForgeTerm-Mac-#{version}.dmg"
   name "ForgeTerm"
