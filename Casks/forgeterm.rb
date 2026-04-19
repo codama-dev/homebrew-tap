@@ -1,11 +1,11 @@
 cask "forgeterm" do
-  version "0.15.0"
-  sha256 "f6f8eb1ed02046706ccf46135c9f7e3931869d5cb30a3be94e1ab633cdaecd76"
+  version "0.16.1"
+  sha256 "f2daeb1c58988edf61f7320c8bead09c43c713f37617f9f2f14a131ce834efca"
 
-  url "https://github.com/codama-dev/forgeterm/releases/download/v#{version}/ForgeTerm-Mac-#{version}.dmg"
+  url "https://github.com/ncamaa/forgeterm/releases/download/v#{version}/ForgeTerm-Mac-#{version}.dmg"
   name "ForgeTerm"
   desc "Terminal emulator for multi-project workflows"
-  homepage "https://github.com/codama-dev/forgeterm"
+  homepage "https://github.com/ncamaa/forgeterm"
 
   app "ForgeTerm.app"
 
