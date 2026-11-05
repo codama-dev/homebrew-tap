@@ -28,3 +28,7 @@ forgeterm notify "Build done"       # Send a notification
 
 - [ForgeTerm on GitHub](https://github.com/codama-dev/forgeterm)
 - [Latest release](https://github.com/codama-dev/forgeterm/releases/latest)
+
+---
+
+Built by [Codama](https://codama.dev), a web and software studio in Israel.
