@@ -7,12 +7,12 @@ cask "forgeterm" do
   desc "Terminal emulator for multi-project workflows"
   homepage "https://github.com/ncamaa/forgeterm"
 
+  depends_on :macos
+
   app "ForgeTerm.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/ForgeTerm.app"],
-                   sudo: false
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/ForgeTerm.app"]
   end
 
   zap trash: [
